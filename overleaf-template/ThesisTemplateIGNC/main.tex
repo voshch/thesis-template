@@ -234,14 +234,14 @@
 
 \mainmatter                     %% KOMA: marks main part using arabic page numbers and such; only available in scrbook
 
-\include{content/1_introduction/index}
-\include{content/2_relatedworks/index}
-\include{content/3_fundamentals/index}
-\include{content/4_conceptualdesign/index}
-\include{content/5_implementation/index}
-\include{content/6_evaluation/index}
-\include{content/7_conclusion/conclusion}
-\include{content/8_futurework/futurework}
+\input{content/1_introduction/index}
+\input{content/2_relatedworks/index}
+\input{content/3_fundamentals/index}
+\input{content/4_conceptualdesign/index}
+\input{content/5_implementation/index}
+\input{content/6_evaluation/index}
+\input{content/7_conclusion/conclusion}
+\input{content/8_futurework/futurework}
 
 \printbibliography              %% remove, if using BibTeX instead of biblatex
 % \include{further_ressources}  %% this is a suggestion: you have to create this file on demand
@@ -251,7 +251,7 @@
 
 %\appendix                       %% closes main document, appendix follows until end; only available in book-classes
 %\addpart*{Appendix}             %% adding Appendix to tableofcontents
-\include{content/appendix/appendix1}
+\input{content/appendix/appendix1}
 
 %%%% end{document}
 \end{document}
